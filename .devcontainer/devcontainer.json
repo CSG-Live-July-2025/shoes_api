@@ -3,7 +3,7 @@
   "image": "mcr.microsoft.com/devcontainers/ruby:3.2",
   "features": {
     "ghcr.io/devcontainers/features/node:1": {},
-    "ghcr.io/devcontainers/features/postgres:1": {
+    "ghcr.io/devcontainers/features/postgresql:1": {
       "version": "16",
       "dbUser": "dev",
       "dbPassword": "password",
