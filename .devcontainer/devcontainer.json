@@ -1,14 +1,8 @@
 {
-  "name": "Rails API with Postgres",
+  "name": "Rails API",
   "image": "mcr.microsoft.com/devcontainers/ruby:3.2",
   "features": {
-    "ghcr.io/devcontainers/features/node:1": {},
-    "ghcr.io/devcontainers/features/postgresql:1": {
-      "version": "16",
-      "dbUser": "dev",
-      "dbPassword": "password",
-      "dbName": "app_development"
-    }
+    "ghcr.io/devcontainers/features/node:1": {}
   },
-  "postCreateCommand": "bundle install && rails db:create db:migrate"
+  "postCreateCommand": "bundle install"
 }
